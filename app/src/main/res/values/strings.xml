@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Pizza House</string>
+
+    <string name="final_message1">name, thank you for your online order.</string>
+    <string name="final_message2">Your type_pizza order successfully received and will be delivered soon.</string>
+
+    <string name="meat_supreme">Meat Supreme</string>
+    <string name="super_hawaiian">Super Hawaiian</string>
+    <string name="veggie">Veggie</string>
+    <string name="mediterranean">Mediterranean</string>
+    <string name="cheddar_supreme">Cheddar Supreme</string>
+
+    <string name="small">small</string>
+    <string name="medium">medium</string>
+    <string name="large">large</string>
+    <string name="extra_large">extra-large</string>
+
+    <string name="continue_but_text">Continue</string>
+
+    <string name="extra_toppings">Extra toppings:</string>
+
+    <string name="cvv">CVV</string>
+    <string name="expiration_date">Expiration date</string>
+    <string name="card_numbers">Card numbers</string>
+    <string name="card_type">Card type</string>
+    <string name="telephone_number">Telephone number</string>
+    <string name="postal_code">Postal code</string>
+    <string name="province">Province</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+
+    <string name="choose_type">Choose type ↑</string>
+    <string name="let_s_order">Let\'s order!</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="new_order">New order</string>
+    <string name="exit">Exit</string>
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+
+
+</resources>

@@ -1,9 +1,9 @@
 package ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.activity;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;

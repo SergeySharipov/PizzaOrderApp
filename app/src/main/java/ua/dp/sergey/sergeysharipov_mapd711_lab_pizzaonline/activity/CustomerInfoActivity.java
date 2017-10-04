@@ -11,7 +11,6 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.CardInfo;
 import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.CustomerInfo;
@@ -83,25 +82,25 @@ public class CustomerInfoActivity extends AppCompatActivity implements View.OnCl
         mNoError = true;
 
         if(TextUtils.isEmpty(mName.getText())) {
-            mName.setError("Write name");
+            mName.setError(getString(R.string.emty_err_message_name));
             mNoError =false;
         } else if(TextUtils.isEmpty(mAddress.getText())) {
-            mAddress.setError("Write address");
+            mAddress.setError(getString(R.string.emty_err_message_address));
             mNoError =false;
         }else if(mPostalCode.getText().length()<6) {
-            mPostalCode.setError("Need 6 symbols");
+            mPostalCode.setError(getString(R.string.err_message_postal_code));
             mNoError =false;
         }else if(TextUtils.isEmpty(mTelephoneNumber.getText())) {
-            mTelephoneNumber.setError("Write telephone number");
+            mTelephoneNumber.setError(getString(R.string.err_message_telephone_number));
             mNoError =false;
         }else if(mCardNum.getText().length()<16) {
-            mCardNum.setError("Write 16 numbers");
+            mCardNum.setError(getString(R.string.err_message_card_num));
             mNoError =false;
         } else if(mCvv.getText().length()<3) {
-            mCvv.setError("Write 3 numbers");
+            mCvv.setError(getString(R.string.err_message_cvv));
             mNoError =false;
         }else if(mCardTypeRadioGroup.getCheckedRadioButtonId()==-1) {
-            mCreditRadioBut.setError("Select card type");
+            mCreditRadioBut.setError(getString(R.string.err_message_card_type));
             mNoError =false;
         }
     }

@@ -61,7 +61,7 @@ public class SizesOfPizzaActivity extends AppCompatActivity {
                     Intent intent = new Intent(SizesOfPizzaActivity.this, ExtraToppingsActivity.class);
                     startActivity(intent);
                 } else {
-                    Toast.makeText(SizesOfPizzaActivity.this, "Select size", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SizesOfPizzaActivity.this, R.string.select_size, Toast.LENGTH_SHORT).show();
                 }
             }
         });

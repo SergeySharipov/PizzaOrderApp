@@ -1,17 +1,17 @@
 package ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.activity;
 
-        import android.content.Intent;
-        import android.os.Bundle;
-        import android.support.v7.app.ActionBar;
-        import android.support.v7.app.AppCompatActivity;
-        import android.util.SparseBooleanArray;
-        import android.view.MenuItem;
-        import android.view.View;
-        import android.widget.ArrayAdapter;
-        import android.widget.ListView;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.util.SparseBooleanArray;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
-        import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.Order;
-        import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.R;
+import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.Order;
+import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.R;
 
 public class ExtraToppingsActivity extends AppCompatActivity implements View.OnClickListener {
 

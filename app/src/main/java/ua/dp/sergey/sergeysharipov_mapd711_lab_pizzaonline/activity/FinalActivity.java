@@ -18,8 +18,8 @@ public class FinalActivity extends AppCompatActivity implements View.OnClickList
 
         String message1 = getString(R.string.final_message1);
         String message2 = getString(R.string.final_message2);
-        message1 = message1.replace("name", Order.getCustomerName(this));
-        message2 = message2.replace("type_pizza", Order.getPizzaType(this));
+        message1 = message1.replace(getString(R.string.replace_in_final_mes1), Order.getCustomerName(this));
+        message2 = message2.replace(getString(R.string.replace_in_final_mes2), Order.getPizzaType(this));
 
         ((TextView) findViewById(R.id.text)).setText(message1 + '\n' + message2);
 

@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Pizza House</string>
 
-    <string name="final_message1">name, thank you for your online order.</string>
-    <string name="final_message2">Your type_pizza order successfully received and will be delivered soon.</string>
+    <string name="choose_type">Choose type ↑</string>
+    <string name="let_s_order">Let\'s order!</string>
 
     <string name="meat_supreme">Meat Supreme</string>
     <string name="super_hawaiian">Super Hawaiian</string>
@@ -10,12 +10,14 @@
     <string name="mediterranean">Mediterranean</string>
     <string name="cheddar_supreme">Cheddar Supreme</string>
 
+    <string name="continue_but_text">Continue</string>
+
+    <string name="select_size">Select size</string>
+
     <string name="small">small</string>
     <string name="medium">medium</string>
     <string name="large">large</string>
     <string name="extra_large">extra-large</string>
-
-    <string name="continue_but_text">Continue</string>
 
     <string name="extra_toppings">Extra toppings:</string>
 
@@ -28,15 +30,25 @@
     <string name="province">Province</string>
     <string name="address">Address</string>
     <string name="name">Name</string>
-
-    <string name="choose_type">Choose type ↑</string>
-    <string name="let_s_order">Let\'s order!</string>
-
-    <string name="confirm">Confirm</string>
-    <string name="new_order">New order</string>
-    <string name="exit">Exit</string>
     <string name="debit">Debit</string>
     <string name="credit">Credit</string>
 
+    <string name="emty_err_message_name">Write name</string>
+    <string name="emty_err_message_address">Write address</string>
+    <string name="err_message_postal_code">Need 6 symbols</string>
+    <string name="err_message_telephone_number">Write telephone number</string>
+    <string name="err_message_card_num">Write 16 numbers</string>
+    <string name="err_message_cvv">Write 3 numbers</string>
+    <string name="err_message_card_type">Select card type</string>
+
+    <string name="confirm">Confirm</string>
+
+    <string name="final_message1">name, thank you for your online order.</string>
+    <string name="final_message2">Your type_pizza order successfully received and will be delivered soon.</string>
+    <string name="replace_in_final_mes1">name</string>
+    <string name="replace_in_final_mes2">type_pizza</string>
+
+    <string name="new_order">New order</string>
+    <string name="exit">Exit</string>
 
 </resources>

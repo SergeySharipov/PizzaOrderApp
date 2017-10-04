@@ -1,15 +1,11 @@
 package ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.activity;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 
-import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.AppSharedPref;
 import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.Order;
 import ua.dp.sergey.sergeysharipov_mapd711_lab_pizzaonline.R;
 
@@ -36,19 +32,19 @@ public class MainActivity extends AppCompatActivity {
                 onBackPressed();
                 return true;
             case R.id.meat_supreme:
-                typeOfPizza = "Meat supreme";
+                typeOfPizza = getString(R.string.meat_supreme);
                 break;
             case R.id.super_hawaiian:
-                typeOfPizza = "Super hawaiian";
+                typeOfPizza = getString(R.string.super_hawaiian);
                 break;
             case R.id.veggie:
-                typeOfPizza = "Veggie";
+                typeOfPizza = getString(R.string.veggie);
                 break;
             case R.id.mediterranean:
-                typeOfPizza = "Mediterranean";
+                typeOfPizza = getString(R.string.mediterranean);
                 break;
             case R.id.cheddar_supreme:
-                typeOfPizza = "Cheddar supreme";
+                typeOfPizza = getString(R.string.cheddar_supreme);
                 break;
             default:
                 return super.onOptionsItemSelected(item);
